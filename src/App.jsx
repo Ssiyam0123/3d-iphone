@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
 
 const App = () => {
-    return (
-        <div className='text-red-400'>
-            hii
-        </div>
-    );
+  return (
+    <main className="bg-black">
+      <Navbar/>
+      <Hero/>
+      <Highlights/>
+    </main>
+  )
 };
 
 export default App;
