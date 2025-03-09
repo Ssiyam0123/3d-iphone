@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
+    "@react-three/drei": "^9.101.0",
+    "@sentry/react": "^9.5.0",
+    "@sentry/vite-plugin": "^3.2.2",
     "axios": "^1.7.8",
     "daisyui": "^4.12.14",
     "firebase": "^11.0.2",
@@ -19,9 +22,7 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.1",
     "react-toastify": "^10.0.6",
-    "three": "^0.174.0",
-    "@react-three/drei": "^9.101.0"
-
+    "three": "^0.174.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
