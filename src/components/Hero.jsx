@@ -28,6 +28,8 @@ const Hero = () => {
     gsap.to("#hero", {
       opacity: 1,
       delay: 2,
+      repeat:-1,
+      yoyo:true
     });
 
     gsap.to("#cta", {
